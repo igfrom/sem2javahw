@@ -8,7 +8,7 @@ public class Homework {
     public static void main(String[] args) throws IOException {
         System.out.println(buldString(10, 'a', 'b'));
 
-        Path of = Path.of("file.txt");
+        Path of = Path.of( "src", "main", "java", "sem2", "file.txt");
         try{
             Files.createFile(of);
         }catch (Exception e){
